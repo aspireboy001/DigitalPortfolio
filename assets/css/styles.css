@@ -347,12 +347,23 @@ img {
 }
 
 /* ===== MEDIA QUERIES=====*/
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 426px) {
   .home {
     row-gap: 2rem;
   }
   .home__img {
     width: 200px;
+  }
+
+  .email_me{
+    justify-content: center;
+    margin: 8% auto auto auto;
+    width: 60%;
+  }
+
+  .company_block{
+    display: block; 
+    align-items:center
   }
 }
 @media screen and (min-width: 576px) {
@@ -394,6 +405,15 @@ img {
   }
   .contact__container {
     justify-items: center;
+  }
+  .email_me{
+    justify-content: center;
+    margin-top: 8%;
+    width: 40%;
+  }
+  .company_block{
+    display: block; 
+    align-items:center
   }
 }
 @media screen and (min-width: 768px) {
@@ -451,6 +471,15 @@ img {
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
   }
+  .email_me{
+    justify-content: center;
+    margin-top: 8%;
+    width: 40%;
+  }
+  .company_block{
+    display: block; 
+    align-items:center
+  }
 }
 @media screen and (min-width: 992px) {
   .bd-grid {
@@ -462,5 +491,14 @@ img {
   }
   .home__img {
     width: 450px;
+  }
+  .email_me{
+    justify-content: center;
+    margin-top: 8%;
+    width: 30%;
+  }
+  .company_block{
+    display: flex; 
+    align-items:center
   }
 }
